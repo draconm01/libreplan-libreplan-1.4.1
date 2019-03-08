@@ -27,6 +27,11 @@
         values when necessary.
     -->
     <properties>
+	<!-- Rajouté par mario -->
+	<sonar.login>2e9dfae8af6b2fc6b8db798efa6114eea75d9626</sonar.login>
+	<sonar.sources>src</sonar.sources>
+	<sonar.test.exclusions>src/test/java/**</sonar.test.exclusions>
+			
         <!--  Data source properties -->
         <dataSource.user>libreplan</dataSource.user>
         <dataSource.password>libreplan</dataSource.password>
